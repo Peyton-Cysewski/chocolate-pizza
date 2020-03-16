@@ -61,5 +61,31 @@ body {
   color: rgb(168, 168, 168);
 }
 
+#instructionBox {
+  margin: 20px 0;
+}
+
+#instructionBox p {
+  color: rgb(100, 100, 100);
+  text-indent: 20px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+#columns {
+  position: absolute;
+  width: 900px;
+  margin-left: 60px;
+  margin-top: 38px;
+}
+
+#columns div {
+  width: 50%;
+  float: left;}
+
+#columns > div > input, label {
+  margin-bottom: 18px;
+}
+
 
 /* Footer */
