@@ -1,0 +1,65 @@
+/* Overall Body */
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* Header */
+#header {
+  margin: 20px 0;
+}
+
+#logoBox {
+  display: inline-block;
+}
+
+#innerLogoBox {
+  display: inline-block;
+  height: 100%;
+}
+
+#innerLogoBox > h1 {
+  font-size: 30px;
+}
+
+#innerLogoBox > p {
+  font-size: 15px;
+}
+
+#iconBox {
+  height: 48px;
+  float: right;
+  top: 50%
+}
+
+#iconBox img {
+  margin-top: 12px;
+}
+
+#iconBox img:nth-child(6) {
+  margin-right: 6px;
+}
+
+
+/* Main */
+#headingBox {
+  margin: 20px 0;
+}
+
+#headingBox h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#headingBox p {
+  display: inline;
+  color: rgb(168, 168, 168);
+}
+
+#printIcon {
+  float: right;
+  color: rgb(168, 168, 168);
+}
+
+
+/* Footer */
