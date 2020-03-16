@@ -4,6 +4,13 @@ body {
   margin: 0 auto;
 }
 
+.coolDivider {
+  height: 10px;
+  width: 100%;
+  background-image: url(img/hr-img.png);
+  background-repeat: repeat;
+}
+
 /* Header */
 #header {
   margin: 20px 0;
@@ -72,11 +79,15 @@ body {
   margin: 20px 0;
 }
 
+#notePadBox {
+  margin: 20px 0;
+}
+
 #columns {
   position: absolute;
-  width: 900px;
-  margin-left: 60px;
-  margin-top: 38px;
+  width: 800px;
+  padding-left: 60px;
+  margin-top: 35px;
 }
 
 #columns div {
@@ -84,8 +95,58 @@ body {
   float: left;}
 
 #columns > div > input, label {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
+  color: rgb(112,103,77);
+  font-size: 20px;
+}
+
+#authorBox {
+  margin: 20px 0;
+}
+
+#authorBox div {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+#authorBox div h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#authorBox a {
+  padding: 25px 20px;
+  color: white;
+  background-color: rgb(200, 106, 81);
+  font-size: 20px;
+  float: right;
+}
+
+#authorBox a:hover {
+  background-color: black;
+}
+
+/* Footer */
+
+
+#footer {
+  margin: 55px 0;
+  border-top: solid 1px rgb(201, 201, 201);
+}
+
+#footer img {
+  display: block;
+  margin: 0 auto;
+  transform: translateY(-16px);
+  padding: 0 10px;
+  background-color: white;
 }
 
 
-/* Footer */
+#footer p {
+  text-align: center;
+  margin-top: 25px;
+  color: rgb(180,180,180);
+  line-height: 1.6;
+}
